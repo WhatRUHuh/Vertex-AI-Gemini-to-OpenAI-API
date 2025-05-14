@@ -1,0 +1,18 @@
+# 忽略包含敏感信息的 .env 文件
+.env
+
+# 忽略 Python 编译产生的字节码文件和目录
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略虚拟环境目录 (如果使用的话)
+venv/
+env/
+.venv/
+
+# 忽略 IDE 和编辑器特定的配置文件
+.vscode/
+.idea/
+*.swp
+*.swo

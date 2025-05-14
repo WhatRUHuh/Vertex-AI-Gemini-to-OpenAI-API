@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  gemini-proxy:
+    build: .
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    restart: always
