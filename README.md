@@ -68,3 +68,8 @@
 ├── main.py             # FastAPI应用主逻辑
 ├── README.md           # 本文档
 └── requirements.txt    # Python依赖
+---
+
+## 致谢
+
+特别感谢杰米尼先生对本源码实现思路和关键技术点的启发与贡献。
