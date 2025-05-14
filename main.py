@@ -73,7 +73,7 @@ async def create_chat_completion(
 ):
     # 1. 验证反代密钥
     if authorization is None or authorization.replace("Bearer ", "") != PROXY_API_KEY:
-        raise HTTPException(status_code=401, detail="无效的反代密钥，主人您是不是输错了？")
+        raise HTTPException(status_code=401, detail="无效的反代密钥，您是不是输错了？")
 
     # 2. 构造 Vertex AI HTTP payload（给非流式用）
     vertex_ai_endpoint = f"{VERTEX_AI_BASE_ENDPOINT}{request.model}:generateContent"
